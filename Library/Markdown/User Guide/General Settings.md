@@ -64,6 +64,11 @@ GCS will automatically replace:
 
 - `$PAGE` with the referenced page number.
 - `$FILE` with the correct PDF file, based on the **Page Reference Mappings** in [Page References](Page%20References).
+- `$WORD` with the highlighted word.
+
+In most cases, you'll want to surround the $FILE and $WORD variables with quotes.
+Note that this might still fail, e.g. if the variable itself contains quotes,
+but there is no reasonable way to prevent that which will work on all supported platforms and shells.
 
 To use GCS as the PDF viewer:
 
