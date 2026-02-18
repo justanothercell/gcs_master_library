@@ -66,7 +66,7 @@ GCS will automatically replace:
 - `$FILE` with the correct PDF file, based on the **Page Reference Mappings** in [Page References](Page%20References).
 - `$TEXT` with the highlighted text.
 
-In most cases, you'll want to surround the $FILE and $TEXT variables with quotes.
+In most cases, you'll want to surround the `$FILE` and `$TEXT` variables with quotes.
 Note that this might still fail, e.g. if the variable itself contains quotes.
 
 To use GCS as the PDF viewer:
